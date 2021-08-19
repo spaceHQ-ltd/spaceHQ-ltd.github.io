@@ -16,6 +16,8 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 THEME = 'theme/solid_theme'
 
+PLUGIN_PATHS = ['/Users/inertialframe/blog-plugins',
+               ]
 PLUGINS = ['pelican_javascript',
            'simple_footnotes',
            'obsidian']
