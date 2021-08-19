@@ -1,4 +1,4 @@
-var MY_ADDRESS = '0x7891338cC2d668bA268B69e3b8f85Cdf3660495E'
+var MY_ADDRESS = 'Enter a wallet number here'
     var tipButton = document.querySelector('.tip-button')
 
     tipButton.addEventListener('click', function() 
