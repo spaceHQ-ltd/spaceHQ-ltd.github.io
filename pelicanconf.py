@@ -7,10 +7,10 @@ SITEURL = ''
 
 PATH = 'content'
 PAGE_PATHS = ['pages']
+
 STATIC_PATHS = ['images']
+
 ARTICLE_PATHS = ['articles']
-HEADER_IMAGE = "HOWLER_Pic.jpeg"
-PROFILE_PICTURE = "HOWLER_Pic.jpeg"
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
