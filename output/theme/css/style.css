@@ -121,8 +121,18 @@ button,input,select,textarea,label{font-size:20px;line-height:30px}
 @media (min-width: 641px){.site-footer{margin-top:20px}.site-footer-inner{justify-content:space-between;padding-top:64px;padding-bottom:64px}.footer-brand,.footer-links,.footer-social-links,.footer-copyright{flex:50%}.footer-brand,.footer-copyright{justify-content:flex-start}.footer-links,.footer-social-links{justify-content:flex-end}.footer-links{order:1;margin-bottom:0}}
 
 
-.tip-button {width: 304px;height: 50px;background-size: 100%;background-image: url('images/1_pay_mm_off.png');}
+.tip-button:hover 
+    {
+    position:relative;
+    left: 3px;
+    }
+.tip-button:active 
+    {
+    color:gold;
+    }
 
-.tip-button:hover {width: 304px;height: 50px;background-size: 100%; background-image: url('images/1_pay_mm_over.png');}
-
-.tip-button:active {width: 304px;height: 50px;background-size: 100%;background-image: url('images/1_pay_mm_off.png');}
+    .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
