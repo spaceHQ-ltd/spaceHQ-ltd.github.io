@@ -14,7 +14,8 @@ ARTICLE_PATHS = ['articles']
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
-THEME = 'theme/solid_theme'
+# THEME = 'theme/solid_theme'
+THEME = 'theme/custom_theme'
 
 PLUGIN_PATHS = ['/Users/inertialframe/blog-plugins',
                ]
